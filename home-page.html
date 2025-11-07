@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home-page-design.css">
+        <title>My Portfolio</title>
+    </head>
+
+    <!-- body area -->
+    <body>
+
+        <!-- attached javascripyh file -->
+        <script src="home-functional.js"></script>
+
+        <!-- navagation bar -->
+        <header>
+            <nav>
+                <!-- navagation link area -->
+                <div class="nav-container">
+                    <!-- logo tittle -->
+                    <h1 class="font1">portfolio</h1>
+
+                    <!-- navagation bar -->
+                    <div class="con-placement">
+                        <a href="#home" class="hyper-link1">Home</a>
+                        <a href="#about" class="hyper-link2">About</a>
+                        <a href="#experties" class="hyper-link3">Experties</a>
+                        <a href="#contact-con" class="hyper-link4">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- main area -->
+        <main>
+            <div style="position: absolute; top: -50px;" id="home"></div>
+            <!-- section 1  -->
+            <section class="sec-container">
+                <h2 class="font2">Hello</h2>
+                <br>
+                <!-- gif -->
+                <img src="https://media.tenor.com/nBQQ6XM5BhIAAAAm/cute.webp" class="gif">
+                <!-- name-tag -->
+                <h2 class="name-tag">MACMAE, LACLAC</h2>
+                <br>
+                <p class="font3">Welcome to my website!
+                    This website is all about me and for more info just click all the features on it.
+                    Have fun and enjoy!!!
+                </p>
+                <!-- social links -->
+                <!-- facebook -->
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" class="img1"></a>
+                <!-- gmail -->
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" class="img2"></a>
+                <!-- instragram -->
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" class="img3"></a>
+            </section>
+
+            <!-- profile picture -->
+            <img src="65b3b2bc-9eba-4f9b-aef9-5195d93b251a.jpg" class="profile">
+
+
+            <!-- about me -->
+            <div class="about-box" id="about">
+                
+                <!-- about me container -->
+                <div class="about-container">
+                    <!-- title -->
+                    <div class="tittle-about">
+                        ABOUT&nbsp;<span style="color: red;">ME</span>
+                    </div>
+                    <br>
+                    <br>
+                    <!-- content area -->
+                    <p class="font4">Personal Info</p>
+                    <br>
+                    <p class="font4">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mcmae C. Laclac </p>
+                    <p class="font4">Birthdate: &nbsp;&nbsp;&nbsp;&nbsp;02/10/2005</p>
+                    <p class="font4">Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bula-an, Ipil, Zamboanga Sibugay</p>
+                    <p class="font4">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mclaclac45@gmail.com</p>
+                    <p class="font4">Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09566115831</p>
+                    <!-- gif 2 -->
+                    <img src="https://media.tenor.com/MH_P_niyN6oAAAAm/%EB%AA%A8%EC%B0%8C%EB%83%A5.webp" class="gif2">
+                </div>
+            </div>
+
+            <!-- my experties -->
+            <div class="experties" id="experties">
+                <div class="sub-tittle">
+                    Experties
+                </div>
+
+                <!-- content box -->
+                <div class="content-hobies">
+                    <!-- hobies 1 -->
+                    <div class="hobies1" onclick="fed()">
+                        <h1>FrontEnd Developer</h1>
+                    </div>
+                    <!-- hobies 2 -->
+                    <div class="hobies2" onclick="hac()">
+                        <h1>HTML And CSS</h1>
+                    </div>
+                    <!-- hobies 3 -->
+                    <div class="hobies3" onclick="dcg()">
+                        <h1>Dancing</h1>
+                    </div>
+                    <!-- hobies 4 -->
+                    <div class="hobies4" onclick="ckg()">
+                        <h1>Cooking</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content of functional -->
+
+            <!-- fontend developer -->
+            <div class="fed" id="fed-open">
+                <p class="position">
+                    My hobby as a front-end developer comes from my love for creativity and technology. 
+                    I enjoy turning ideas into interactive, beautiful websites that people can actually use and enjoy. 
+                    It’s like painting, but with code — every color, animation, and layout tells a story. 
+                    What inspires me is the human side of development: creating designs that make life easier and experiences that feel natural. 
+                    Seeing users smile or feel connected through something I built motivates me to keep improving. 
+                    For me, front-end development isn’t just co
+                    ding — it’s about inspiring and helping others through digital art.
+                </p>
+                <img src="https://media.tenor.com/8uUz5z-QqNAAAAAm/quby-quby-sticker.webp" class="gif3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="iconx" onclick="fedclose()">
+                    <path fill="#ffffff" d="M504.6 148.5C515.9 134.9 514.1 114.7 500.5 103.4C486.9 92.1 466.7 93.9 455.4 107.5L320 270L184.6 107.5C173.3 93.9 153.1 92.1 139.5 103.4C125.9 114.7 124.1 134.9 135.4 148.5L278.3 320L135.4 491.5C124.1 505.1 125.9 525.3 139.5 536.6C153.1 547.9 173.3 546.1 184.6 532.5L320 370L455.4 532.5C466.7 546.1 486.9 547.9 500.5 536.6C514.1 525.3 515.9 505.1 504.6 491.5L361.7 320L504.6 148.5z"/>
+                </svg>
+            </div>
+
+            <!-- html and css -->
+            <div class="hac" id="hac-open">
+                <p class="position2">
+                    I chose HTML and CSS as my hobbies because they allow me to express creativity through web design and development. 
+                    With HTML, I can structure websites and bring ideas to life, while CSS lets me style and customize every detail 
+                    to match my vision. It’s rewarding to see how a few lines of code can transform into a visually appealing and functional 
+                    webpage. Learning and experimenting with different layouts, colors, and animations gives me a sense of accomplishment. 
+                    These skills are also practical and useful for future opportunities in technology, making web design both a fun and productive hobby.
+                </p>
+                <img src="https://media.tenor.com/sOVYL1RsYyYAAAAm/munch-face.webp" class="gif4">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="iconx2" onclick="hacclose()">
+                    <path fill="#ffffff" d="M504.6 148.5C515.9 134.9 514.1 114.7 500.5 103.4C486.9 92.1 466.7 93.9 455.4 107.5L320 270L184.6 107.5C173.3 93.9 153.1 92.1 139.5 103.4C125.9 114.7 124.1 134.9 135.4 148.5L278.3 320L135.4 491.5C124.1 505.1 125.9 525.3 139.5 536.6C153.1 547.9 173.3 546.1 184.6 532.5L320 370L455.4 532.5C466.7 546.1 486.9 547.9 500.5 536.6C514.1 525.3 515.9 505.1 504.6 491.5L361.7 320L504.6 148.5z"/>
+                </svg>
+            </div>
+
+            <!-- dancing -->
+            <div class="dcg" id="dcg-open">
+                <p class="position3">
+                   I chose dancing as my hobby because it makes me feel alive and free.
+                    Whenever I dance, I can express my emotions without saying a word — it’s like telling a story through movement.
+                    Dancing helps me release stress and forget my worries, even just for a while. It also keeps me active and healthy while allowing me to connect 
+                    with others who share the same passion. Whether it’s performing in front of people or simply dancing alone 
+                    in my room, it always lifts my mood. For me, dancing isn’t just a hobby — it’s a joyful way of expressing myself.
+
+                </p>
+                <img src="https://media.tenor.com/D1N20hlTfRMAAAAm/twitter-cute.webp" class="gif5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="iconx3" onclick="dcgclose()">
+                    <path fill="#ffffff" d="M504.6 148.5C515.9 134.9 514.1 114.7 500.5 103.4C486.9 92.1 466.7 93.9 455.4 107.5L320 270L184.6 107.5C173.3 93.9 153.1 92.1 139.5 103.4C125.9 114.7 124.1 134.9 135.4 148.5L278.3 320L135.4 491.5C124.1 505.1 125.9 525.3 139.5 536.6C153.1 547.9 173.3 546.1 184.6 532.5L320 370L455.4 532.5C466.7 546.1 486.9 547.9 500.5 536.6C514.1 525.3 515.9 505.1 504.6 491.5L361.7 320L504.6 148.5z"/>
+                </svg>
+            </div>
+            
+            <!-- cooking -->
+            <div class="ckg" id="ckg-open">
+                <p class="position4">
+                    I chose cooking as my hobby because it brings me comfort and joy. There’s something special about turning simple ingredients 
+                    into delicious meals that make people happy. Cooking allows me to express my creativity and show love through food. I enjoy 
+                    experimenting with new recipes, flavors, and techniques, and it feels rewarding when others appreciate what I’ve made. It also
+                    teaches patience and helps me relax after a long day. The kitchen feels like my safe space where I can create, 
+                    learn, and share. For me, cooking isn’t just a hobby — it’s a warm, meaningful way to connect with others.
+
+                </p>
+                <img src="https://media.tenor.com/jkVthFR60pgAAAAm/feliz-cumplea%C3%B1os.webp" class="gif6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="iconx4" onclick="ckgclose()">
+                    <path fill="#ffffff" d="M504.6 148.5C515.9 134.9 514.1 114.7 500.5 103.4C486.9 92.1 466.7 93.9 455.4 107.5L320 270L184.6 107.5C173.3 93.9 153.1 92.1 139.5 103.4C125.9 114.7 124.1 134.9 135.4 148.5L278.3 320L135.4 491.5C124.1 505.1 125.9 525.3 139.5 536.6C153.1 547.9 173.3 546.1 184.6 532.5L320 370L455.4 532.5C466.7 546.1 486.9 547.9 500.5 536.6C514.1 525.3 515.9 505.1 504.6 491.5L361.7 320L504.6 148.5z"/>
+                </svg>
+            </div>
+
+            <!-- contact -->
+            <div class="contact-container" id="contact-con">
+                <div class="sub-tittle2">
+                    Contact
+                </div>
+
+                <!-- email area -->
+                <div class="form">
+                    <form action="">
+                        <input type="text" class="email" name="email" placeholder="Email">
+                    </form>
+                    <br>
+                    <br>
+                    <textarea name="feedback" id="feedback" class="feedback" placeholder="Message:"></textarea>
+                    <br>
+                    <button class="btn">Submit</button>
+                </div>
+
+                <img src="https://media.tenor.com/urfjXpxzA0oAAAAm/cat-in-peach-box.webp" class="last-gif">
+            </div>
+        </main>
+    </body>
+</html>
